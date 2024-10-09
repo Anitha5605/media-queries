@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.childA{
+    display: flex;
+    justify-content: space-between;
+
+}
+.childb{
+    display: flex;
+    gap: 20px;;
+}
+.container1{
+    height:90%;
+
+    background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");
+    display: flex;
+    align-items: flex-end;
+}
+.container2{
+    height:90%;
+    display: flex;
+    margin:80px ;
+    gap: 50px;
+
+}
+
+.container3{
+    gap: 20px;
+    height:80%;
+    display: flex;
+   justify-content:space-evenly ;
+}
+.container4{
+    height: 80%;
+    padding: 100px; 
+
+
+}
+input{
+    border:none ;
+    width:100%;
+    height: 50px; 
+    border-bottom:  1px solid;
+
+}
+.b2{
+    margin:20px;
+    padding: 20px;
+    
+}
+.b2:hover{
+    background-color:rgba(139, 129, 129, 0.099) ;
+    width: 100px;
+    height:20px;
+}
+.b3{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (width<576px){
+    .childb ,.childA,.container3,.container4,.container2{
+        flex-direction: column ;
+
+    }
+}
+
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="childA">
+        <div class="child1">Gourmet au catering</div>
+        <div class="childb">
+        <div class="child2">About</div>
+        <div class="child3">Menu</div>
+        <div class="child4">Contact</div>
+    </div>
+
+    </div>
+</div>
+<div class="container1">
+    <span style="font-size:40px; font-weight:900">le catering</span>
+
+</div>
+<div class="container2"> 
+    <div class="a1">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" width="450" height="450">
+    </div>
+    <div class="a2">
+        <h1>About Catering</h1>
+        <br>
+        <div>Tradition since 1889</div>
+        <br>
+        <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            
+            </p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            </p>
+
+
+    </div>
+</div>
+
+<div class="container3">
+    <div class="p1">
+        <h1>our menu</h1>
+        <br>
+    <b>Bread Basket</b>
+    <br>
+    <div>Assortment of fresh baked fruit breads and muffins 5.50</div>
+    <br>
+    <div>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00 </div>
+    <br>
+    <b>Belgian Waffle</b>
+    <br>
+    <div>Vanilla flavored batter with malted flour 7.50 </div>
+    <br>
+    <b>Scrambled eggs</b>
+    <br>
+    <div>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</div>
+    <br>
+    <b>Blueberry Pancakes</b>
+    <br>
+    <div>With syrup, butter and lots of berries 8.50</div>
+    <br>
+</div>
+<div class="p2">
+    <img src="https://www.w3schools.com/w3images/tablesetting.jpg" width="450" height="450">
+</div>
+</div>
+<div class="container4">
+    <h1>Contact</h1>
+    <b>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</b>
+    <div>Catering Service, 42nd Living St, 43043 New York, NY    </div>
+    <br>
+<div>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</div>
+<br>
+<input type="text" id="krishna" placeholder="enter your name">
+<input type="text" id="radha" placeholder="how many people">
+<input type="date" id="sai" placeholder="enter date">
+<input type="text" id="teja" placeholder="message/special requiremts" style="font-style: italic;">
+<div class="b2" >
+    send message
+</div>
+
+</div>
+<div class="b3">Powered by <a href="#">w3.css</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
